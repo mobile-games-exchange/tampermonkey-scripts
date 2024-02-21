@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MGX Toolkit - CeX Sell Basket Transfer
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Custom script for webuy.com
 // @author       Diogo Novo
 // @match        https://uk.webuy.com/sell/basket/
@@ -10,6 +10,8 @@
 // @grant        GM_getValue
 // @require https://code.jquery.com/jquery-2.1.4.min.js
 // @require C:\keys.js
+// @downloadURL  https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXSellBasketTransfer.user.js
+// @updateURL    https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXSellBasketTransfer.user.js
 // ==/UserScript==
 
 

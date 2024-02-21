@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MGX Toolkit - CeX Item Detail Transfer
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Custom script for webuy.com
 // @author       Diogo Novo
 // @match        https://uk.webuy.com/product-detail/*
@@ -10,6 +10,8 @@
 // @grant        GM_getValue
 // @require https://code.jquery.com/jquery-2.1.4.min.js
 // @require C:\keys.js
+// @downloadURL  https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXItemDetailTransfer.user.js
+// @updateURL    https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXItemDetailTransfer.user.js
 // ==/UserScript==
 
 (function () {
@@ -99,7 +101,16 @@
             // Append the button to the end of the "price-block" div
             referenceNode.parentNode.insertBefore(sendDataButton, referenceNode.nextSibling);
         } else {
-            console.error('Price block not found');
+            referenceNode = document.querySelector('.notify-me-btn');
+            if (referenceNode) {
+                // Append the button to the end of the "price-block" div
+                referenceNode.parentNode.insertBefore(sendDataButton, referenceNode.nextSibling);
+            }
+            else
+            {
+                console.error('Price block not found');
+            }
+            
         }
     }
 
