@@ -10,8 +10,8 @@
 // @grant        GM_getValue
 // @require https://code.jquery.com/jquery-2.1.4.min.js
 // @require C:\keys.js
-// @downloadURL  https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXSellBasketTransfer.user.js
-// @updateURL    https://github.com/mobile-games-exchange/tampermonkey-scripts/raw/main/CeXSellBasketTransfer.user.js
+// @downloadURL  https://raw.githubusercontent.com/mobile-games-exchange/tampermonkey-scripts/main/CeXSellBasketTransfer.user.js
+// @updateURL    https://raw.githubusercontent.com/mobile-games-exchange/tampermonkey-scripts/main/CeXSellBasketTransfer.user.js
 // ==/UserScript==
 
 
